@@ -20,6 +20,10 @@ h1,h4{
     padding: 20px 0;
 }
 
+.navbar{
+    background-color: #e5e5e5;
+    height: 50px;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,7 +45,7 @@ nav ul {
   }
   
   nav a:active {
-    color: #353535;
+    font-weight: bold;
   }
 
 .gridheader{

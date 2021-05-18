@@ -20,6 +20,11 @@ h1,h4{
     padding: 20px 0;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
 .gridheader{
     grid-area: header;
@@ -58,8 +63,8 @@ html{
     /* background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000)  */
     background-repeat: no-repeat;
 }
-nav ul {
+/* nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+  } */

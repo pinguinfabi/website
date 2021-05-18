@@ -48,7 +48,7 @@ h1,h4{
 }
 html{
     /* background-color: #fff; */
-    background: linear-gradient(to right, red, orange, yellow, green, blue);
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue);
 }
 
 

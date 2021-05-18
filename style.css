@@ -30,7 +30,8 @@ h1,h4{
     grid-area: main;
 }
 .gridcontact{
-    grid-area: contact;   
+    grid-area: contact;
+    background-color: #DC2F02 ;   
 
 }
 .gridfooter{

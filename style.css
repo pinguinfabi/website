@@ -49,7 +49,7 @@ h1,h4{
     /* float: left; */
 }
 html{
-    /* background-color: #fff; */
-    background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000) 
-    no-repeat;
+    background-color: #6C757D;
+    /* background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000)  */
+    background-repeat: no-repeat;
 }

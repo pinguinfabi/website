@@ -25,6 +25,7 @@ h1,h4{
 .gridwelcome{
     grid-area: welcome;
     font-size: 2em;
+    cursor: default;
 }
 .gridmain{
     grid-area: main;

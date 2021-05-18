@@ -47,7 +47,8 @@ h1,h4{
     /* float: left; */
 }
 html{
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
 }
 
 

@@ -32,7 +32,7 @@ h1,h4{
 .gridcontact{
     grid-area: contact;
     /* background-color: #DC2F02 ;    */
-    background: radial-gradient(#DC2F02 20%, #E85D04 30%, #F48C06 20%, #FFBA08 30%);
+    /* background: radial-gradient(#DC2F02 20%, #E85D04 30%, #F48C06 20%, #FFBA08 30%); */
 
 }
 .gridfooter{

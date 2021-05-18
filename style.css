@@ -49,7 +49,7 @@ h1,h4{
 }
 html{
     /* background-color: #fff; */
-    background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000, #DC2F02, #E85D04, #F48C06, #FAA307, #FFBA08);
+    background: radial-gradient(to bottom, #03071E, #370617, #6A040F, #D00000, #DC2F02, #E85D04, #F48C06, #FAA307, #FFBA08);
 }
 
 

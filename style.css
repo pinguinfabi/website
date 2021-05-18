@@ -41,7 +41,7 @@ nav ul {
   }
   
   nav a:active {
-    font-weight: bold;
+    color: #353535;
   }
 
 .gridheader{

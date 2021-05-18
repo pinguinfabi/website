@@ -28,6 +28,10 @@ nav ul {
   nav{
       float: right;
   }
+  li {
+    display: inline;
+    margin: 15px;
+  }
 
 .gridheader{
     grid-area: header;

@@ -32,6 +32,10 @@ nav ul {
     display: inline;
     margin: 15px;
   }
+  nav a {
+    text-decoration: none;
+    color: #353535;
+  }
 
 .gridheader{
     grid-area: header;

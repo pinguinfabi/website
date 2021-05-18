@@ -1,3 +1,8 @@
+
+html{
+    /* background-color: #fff; */
+    background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000) 
+}
 h1,h4{
     text-align: center;
 }
@@ -47,8 +52,4 @@ h1,h4{
     width: min-content;
     text-align: center;
     /* float: left; */
-}
-html{
-    /* background-color: #fff; */
-    background: linear-gradient(to bottom, #03071E, #370617, #6A040F, #D00000) 
 }

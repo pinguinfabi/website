@@ -34,7 +34,7 @@ li {
 }
 nav a {
     text-decoration: none;
-    color: #353535;
+    color: #6C757D;
 }
 nav a:hover {
     color: #00b2b2;
@@ -91,6 +91,10 @@ h1,h4{
     text-decoration: none;
 }
 
+.gridfooterindex a:hover {
+    color: #00b2b2;
+}
+
 
 
 
@@ -124,6 +128,10 @@ h1,h4{
 .gridfootercontact a{
     color: #CED4DA;
     text-decoration: none;
+}
+
+.gridfootercontact a:hover {
+    color: #00b2b2;
 }
 
 
@@ -161,6 +169,10 @@ h1,h4{
     text-decoration: none;
 }
 
+.gridfooterpicture a:hover {
+    color: #00b2b2;
+}
+
 
 
 
@@ -194,4 +206,8 @@ h1,h4{
 .gridfooternews a{
     color: #CED4DA;
     text-decoration: none;
+}
+
+.gridfooternews a:hover {
+    color: #00b2b2;
 }

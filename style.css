@@ -10,7 +10,7 @@ h1,h4{
     "header header header header header"
     "welcome welcome welcome welcome welcome"
     "main main main main main"
-    "contact contact footer footer footer";
+    "footer footer footer footer footer";
     grid-gap: 3px;
     /* background-color: #000000; */
     padding: 3px
@@ -34,17 +34,12 @@ h1,h4{
 .gridmain{
     grid-area: main;
 }
-.gridcontact{
-    grid-area: contact;
-    /* background-color: #DC2F02 ;    */
-    /* background: radial-gradient(#DC2F02 20%, #E85D04 30%, #F48C06 20%, #FFBA08 30%); */
 
-}
 .gridfooter{
     grid-area: footer;
 }
 
-#angebot-1,#angebot-2{
+#picture1,#picture2{
     margin: 0 auto;
     display: inline-block;
     border-style: groove;

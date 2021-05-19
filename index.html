@@ -18,13 +18,13 @@
     </div>
 
     <script>
-        function angebotenter(angebotsnummer){
-            document.getElementById("angebot-" + angebotsnummer).style.border = "10px ridge";
-            document.getElementById("angebot-" + angebotsnummer).style.background = "#ADB5BD";
+        function pictureenter(angebotsnummer){
+            document.getElementById("picture-" + angebotsnummer).style.border = "10px ridge";
+            document.getElementById("picture-" + angebotsnummer).style.background = "#ADB5BD";
         }
-        function angebotout(angebotsnummer){
-            document.getElementById("angebot-" + angebotsnummer).style.border = "10px groove";
-            document.getElementById("angebot-" + angebotsnummer).style.background = "#6C757D";
+        function pictureout(angebotsnummer){
+            document.getElementById("picture-" + angebotsnummer).style.border = "10px groove";
+            document.getElementById("picture-" + angebotsnummer).style.background = "#6C757D";
         }
     </script>
     <div class="grid-container">
@@ -44,44 +44,23 @@
         </div>
         <div class="gridmain">
             <main>
-                <div id="angebot-1" onmouseover='angebotenter("1");' onmouseout='angebotout("1");'>
+                <div id="picture1" onmouseover='angebotenter("1");' onmouseout='angebotout("1");'>
                     Pinguin(-drache) Körper <br>
-                    <img id="angebot-1-img" src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png" width="300" height="300" alt="Bild wird geladen...">
+                    <img id="picture1-img" src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png" width="300" height="300" alt="Bild wird geladen...">
                     </div>
-                <div id="angebot-2" onmouseover='angebotenter("2");' onmouseout='angebotout("2");'>
+                <div id="picture2" onmouseover='angebotenter("2");' onmouseout='angebotout("2");'>
                     Pinfuin(-drache) Kopf <br>
-                    <img id="angebot-2-img" src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png" width="300" height="300" alt="Bild wird geladen...">
+                    <img id="picture2-img" src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png" width="300" height="300" alt="Bild wird geladen...">
                     </div>
             </main>
         </div>
-        <div class="gridcontact">       
-            <!-- <a href="mailto:Dasiatkeineechtemailooj@gmail.com">Kontaktieren sie uns hier</a> -->
 
-            <!-- <form method="post" action="mailto:fabiderpinguin@gmail.com">
-                <label>Name:</label>
-                <input type="text" name="name"> <br>
-                <label>E-Mail:</label>
-                <input type="email" name="email" required> <br>
-                <label>Betreff:</label>
-                <input type="text" name="betreff"> <br>
-                <label>Nachricht:</label>
-                <textarea rows="7" name="nachricht" required></textarea> <br>
-                <button type="submit">Jetzt abschicken!</button>
-            </form> -->
-            
         </div>
         <div class="gridfooter">
             <!-- <a href="fabiderpinguin@gmail.com">Email</a> -->
         </div>
     </div>
-    <!-- <nav>
-            <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="picture.html">Bilder</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-    </nav> -->
+
    
 
 

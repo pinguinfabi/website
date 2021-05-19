@@ -86,7 +86,7 @@ nav ul {
     font-weight: bold;
   }
 
-  .dridcontainercontact{
+  .gridcontainercontact{
     display: grid;
     grid-template-areas: 
     "header header header header header"
@@ -117,8 +117,6 @@ nav ul {
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
-    grid-gap: 3px;
-    padding: 3px
 }
 .gridcontainerpicture>div {
     text-align: center;
@@ -144,8 +142,6 @@ nav ul {
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
-    grid-gap: 3px;
-    padding: 3px
 }
 .gridcontainernews>div {
     text-align: center;

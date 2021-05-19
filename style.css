@@ -102,6 +102,14 @@ nav ul {
     text-align: center;
     padding: 20px 0;
 }
+
+.gridheadercontact{
+    grid-area: header;
+}
+.gridmaincontact{
+    grid-area: main;
+}
 .gridfootercontact{
- background-color: #01013d;
+    grid-area: footer;
+    background-color: #01013d;
 }

@@ -8,6 +8,11 @@
     border-width: 10px;
     width: min-content;
     text-align: center;
+    transition: 1s;
+}
+
+#picture1,#picture2 a:hover{
+    background-color: #ADB5BD;
 }
 
 html{

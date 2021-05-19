@@ -14,8 +14,6 @@ h1,h4{
     "welcome welcome welcome welcome welcome"
     "main main main main main"
     "footer footer footer footer footer";
-    grid-gap: 3px;
-    padding: 3px
 }
 .gridcontainerindex>div {
     text-align: center;

@@ -37,7 +37,7 @@ h1,h4{
 
 .gridfooter{
     grid-area: footer;
-    color: #353535;
+    background-color: #353535;
 }
 
 #picture1,#picture2{
@@ -105,10 +105,10 @@ nav ul {
 .gridmaincontact{
     grid-area: main;
 }
-.gridfooterfooter{
+.gridfootercontact{
     grid-area: footer;
     background-color: #212529;
 }
-.gridfooterfooter a{
+.gridfootercontact a{
     color: #353535;
 }

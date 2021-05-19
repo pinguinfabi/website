@@ -113,3 +113,6 @@ nav ul {
     grid-area: footer;
     background-color: #212529;
 }
+.gridfootercontact a{
+    color: #353535;
+}

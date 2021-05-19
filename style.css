@@ -94,8 +94,10 @@ h4 {
     "welcome welcome welcome welcome welcome"
     "main main main main main"
     "footer footer footer footer footer";
+
   background-color: rgb(22, 22, 22);
   color: white;
+
 }
 
 .gridcontainerindex > div {
@@ -137,9 +139,11 @@ h4 {
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
+
   background-color: rgb(22, 22, 22);
   color: white;
 }
+
 
 .gridcontainercontact > div {
   text-align: center;
@@ -174,8 +178,10 @@ h4 {
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
+
   background-color: rgb(22, 22, 22);
   color: white;
+
 }
 
 .gridcontainerpicture > div {
@@ -211,8 +217,10 @@ h4 {
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
+
   background-color: rgb(22, 22, 22);
   color: white;
+
 }
 
 .gridcontainernews > div {

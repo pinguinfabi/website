@@ -12,7 +12,7 @@ h1,h4{
     "main main main main main"
     "contact contact footer footer footer";
     grid-gap: 3px;
-    /* background-color: #01013d; */
+    background-color: #9393a3;
     padding: 3px
 }
 .grid-container>div {
@@ -20,33 +20,6 @@ h1,h4{
     padding: 20px 0;
 }
 
-.navbar{
-    background-color: #6C757D;
-    height: 50px;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  nav{
-      float: right;
-  }
-  li {
-    display: inline;
-    margin: 15px;
-  }
-  nav a {
-    text-decoration: none;
-    color: #353535;
-  }
-  nav a:hover {
-    color: #00b2b2;
-  }
-  
-  nav a:active {
-    font-weight: bold;
-  }
 
 .gridheader{
     grid-area: header;
@@ -90,3 +63,38 @@ html{
     padding: 0;
     margin: 0;
   } */
+.navbar{
+    background-color: #6C757D;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+      float: right;
+  }
+  li {
+    display: inline;
+    margin: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #353535;
+  }
+  nav a:hover {
+    color: #00b2b2;
+  }
+  
+  nav a:active {
+    font-weight: bold;
+  }
+
+  .dridcontainercontact{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer"
+  }

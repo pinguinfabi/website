@@ -1,0 +1,213 @@
+
+* {margin: 0;}
+
+#picture1,#picture2{
+    margin: 0 auto;
+    display: inline-block;
+    border-style: groove;
+    border-width: 10px;
+    width: min-content;
+    text-align: center;
+}
+
+html{
+    background-color: #6C757D;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color: #6C757D;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav{
+      float: right;
+}
+li {
+    display: inline;
+    margin: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #E9ECEF;
+}
+nav a:hover {
+    color: #00b2b2;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+#welcomeindex{
+    color: #01013d;
+}
+
+h1,h4{
+    text-align: center;
+}
+
+.gridcontainerindex{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "welcome welcome welcome welcome welcome"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+
+.gridcontainerindex>div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.gridheaderindex{
+    grid-area: header;
+    cursor: default;
+}
+
+.gridwelcomeindex{
+    grid-area: welcome;
+    font-size: 2em;
+    cursor: default;
+}
+.gridmainindex{
+    grid-area: main;
+}
+
+.gridfooterindex{
+    grid-area: footer;
+    background-color: #212529;
+}
+
+.gridfooterindex a{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+.gridfooterindex a:hover {
+    color: #00b2b2;
+}
+
+
+
+
+
+  .gridcontainercontact{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer"
+  }
+
+  .gridcontainercontact>div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gridheadercontact{
+    grid-area: header;
+}
+
+.gridmaincontact{
+    grid-area: main;
+}
+
+.gridfootercontact{
+    grid-area: footer;
+    background-color: #212529;
+}
+
+.gridfootercontact a{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+.gridfootercontact a:hover {
+    color: #00b2b2;
+}
+
+
+
+
+
+.gridcontainerpicture{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+
+.gridcontainerpicture>div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gridheaderpicture{
+    grid-area: header;
+}
+
+.gridmainpicture{
+    grid-area: main;
+}
+
+.gridfooterpicture{
+    grid-area: footer;
+    background-color: #212529;
+}
+
+.gridfooterpicture a{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+.gridfooterpicture a:hover {
+    color: #00b2b2;
+}
+
+
+
+
+
+.gridcontainernews{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+
+.gridcontainernews>div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gridheadernews{
+    grid-area: header;
+}
+
+.gridmainnews{
+    grid-area: main;
+}
+
+.gridfooternews{
+    grid-area: footer;
+    background-color: #212529;
+}
+
+.gridfooternews a{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+.gridfooternews a:hover {
+    color: #00b2b2;
+}

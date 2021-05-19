@@ -12,7 +12,7 @@ h1,h4{
     "main main main main main"
     "contact contact footer footer footer";
     grid-gap: 3px;
-    background-color: #000000;
+    /* background-color: #000000; */
     padding: 3px
 }
 .grid-container>div {

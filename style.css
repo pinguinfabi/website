@@ -98,3 +98,7 @@ nav ul {
     "main main main main main"
     "footer footer footer footer footer"
   }
+  .gridcontainercontact>div {
+    text-align: center;
+    padding: 20px 0;
+}

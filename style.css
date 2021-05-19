@@ -62,6 +62,8 @@ h1,h4{
     "welcome welcome welcome welcome welcome"
     "main main main main main"
     "footer footer footer footer footer";
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
 }
 
 .gridcontainerindex>div {
@@ -107,7 +109,9 @@ h1,h4{
     grid-template-areas: 
     "header header header header header"
     "main main main main main"
-    "footer footer footer footer footer"
+    "footer footer footer footer footer";
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
   }
 
   .gridcontainercontact>div {
@@ -147,6 +151,8 @@ h1,h4{
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
 }
 
 .gridcontainerpicture>div {
@@ -186,6 +192,8 @@ h1,h4{
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
 }
 
 .gridcontainernews>div {

@@ -37,7 +37,7 @@ h1,h4{
 
 .gridfooter{
     grid-area: footer;
-    background-color: #353535;
+    background-color: #212529;
 }
 
 #picture1,#picture2{

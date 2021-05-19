@@ -19,12 +19,12 @@
 
     <script>
         function pictureenter(angebotsnummer){
-            document.getElementById("picture-" + angebotsnummer).style.border = "10px ridge";
-            document.getElementById("picture-" + angebotsnummer).style.background = "#ADB5BD";
+            document.getElementById("picture-" + picturenumber).style.border = "10px ridge";
+            document.getElementById("picture-" + picturenumber).style.background = "#ADB5BD";
         }
         function pictureout(angebotsnummer){
-            document.getElementById("picture-" + angebotsnummer).style.border = "10px groove";
-            document.getElementById("picture-" + angebotsnummer).style.background = "#6C757D";
+            document.getElementById("picture-" + picturenumber).style.border = "10px groove";
+            document.getElementById("picture-" + picturenumber).style.background = "#6C757D";
         }
     </script>
     <div class="grid-container">
@@ -44,11 +44,11 @@
         </div>
         <div class="gridmain">
             <main>
-                <div id="picture1" onmouseover='angebotenter("1");' onmouseout='angebotout("1");'>
+                <div id="picture1" onmouseover='pictureenter("1");' onmouseout='pictureout("1");'>
                     Pinguin(-drache) Körper <br>
                     <img id="picture1-img" src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png" width="300" height="300" alt="Bild wird geladen...">
                     </div>
-                <div id="picture2" onmouseover='angebotenter("2");' onmouseout='angebotout("2");'>
+                <div id="picture2" onmouseover='pictureenter("2");' onmouseout='pictureout("2");'>
                     Pinfuin(-drache) Kopf <br>
                     <img id="picture2-img" src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png" width="300" height="300" alt="Bild wird geladen...">
                     </div>

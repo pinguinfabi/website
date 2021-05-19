@@ -9,7 +9,8 @@ h1,h4{
     grid-template-areas: 
     "header header header header header"
     "welcome welcome welcome welcome welcome"
-    "main main main main main";
+    "main main main main main"
+    "footer footer footer footer footer";
     grid-gap: 3px;
     /* background-color: #000000; */
     padding: 3px
@@ -36,6 +37,7 @@ h1,h4{
 
 .gridfooter{
     grid-area: footer;
+    color: #353535;
 }
 
 #picture1,#picture2{

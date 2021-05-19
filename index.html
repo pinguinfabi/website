@@ -1,76 +1,124 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="navbar">
-    <nav>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="picture.html">Bilder</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="navbar-container">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid justify-content-end">
+          <button
+            class="navbar-toggler nav-color"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end nav-color"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Startseite</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="picture.html">Bilder</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     </div>
 
     <script>
-        function pictureenter(picturenumber){
-            document.getElementById("picture" + picturenumber).style.border = "10px ridge";
-            document.getElementById("picture" + picturenumber).style.background = "#ADB5BD";
-        }
-        function pictureout(picturenumber){
-            document.getElementById("picture" + picturenumber).style.border = "10px groove";
-            document.getElementById("picture" + picturenumber).style.background = "rgb(22, 22, 22";
-        }
+      function pictureenter(picturenumber) {
+        document.getElementById("picture" + picturenumber).style.border =
+          "10px ridge";
+        document.getElementById("picture" + picturenumber).style.background =
+          "#212529";
+      }
+      function pictureout(picturenumber) {
+        document.getElementById("picture" + picturenumber).style.border =
+          "10px groove";
+        document.getElementById("picture" + picturenumber).style.background =
+          "rgb(22, 22, 22";
+      }
     </script>
     <div class="gridcontainerindex">
-        <div class="gridheaderindex">
-            <h1>
-                Duis autem vel eum iriure dolor
-                </h1>
-        </div>
-        <div class="gridwelcomeindex">
-            <h4>
-                Duis autem vel eum iriure dolor
-                </h4> 
-             <p id="welcomeindex">
-               Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-               Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                </p>
-        </div>
-        <div class="gridmainindex">
-            <main>
-                <div id="picture1" onmouseover='pictureenter("1");' onmouseout='pictureout("1");'>
-                    Pinguin(-drache) Körper <br>
-                    <img id="picture1-img" src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png" width="300" height="300" alt="Bild wird geladen...">
-                    </div>
-                <div id="picture2" onmouseover='pictureenter("2");' onmouseout='pictureout("2");'>
-                    Pinfuin(-drache) Kopf <br>
-                    <img id="picture2-img" src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png" width="300" height="300" alt="Bild wird geladen...">
-                    </div>
-            </main>
-        </div>
-             <div class="gridfooterindex">
-                <a href="mailto:Dasistkeineechtemailooj@gmail.com">Kontaktieren sie uns hier</a> <br>
-                Copyright © 2021 Fabi
-             </div>
-    
+      <div class="gridheaderindex">
+        <h1>Duis autem vel eum iriure dolor</h1>
+      </div>
+      <div class="gridwelcomeindex">
+        <h4>Duis autem vel eum iriure dolor</h4>
+        <p id="welcomeindex">
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+      <div class="gridmainindex">
+        <main>
+          <div
+            id="picture1"
+            onmouseover='pictureenter("1");'
+            onmouseout='pictureout("1");'
+          >
+            Pinguin(-drache) Körper <br />
+            <img
+              id="picture1-img"
+              src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png"
+              width="300"
+              height="300"
+              alt="Bild wird geladen..."
+            />
+          </div>
+          <div
+            id="picture2"
+            onmouseover='pictureenter("2");'
+            onmouseout='pictureout("2");'
+          >
+            Pinfuin(-drache) Kopf <br />
+            <img
+              id="picture2-img"
+              src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png"
+              width="300"
+              height="300"
+              alt="Bild wird geladen..."
+            />
+          </div>
+        </main>
+      </div>
+      <div class="gridfooterindex">
+        <a href="mailto:Dasistkeineechtemailooj@gmail.com"
+          >Kontaktieren sie uns hier</a
+        >
+        <br />
+        Copyright © 2021 Fabi
+      </div>
     </div>
-    
 
-   
-
-
-
-
-<!-- <script src="script.js"></script> -->
-</body>
-
+    <!-- <script src="script.js"></script> -->
+  </body>
 </html>

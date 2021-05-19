@@ -1,224 +1,251 @@
-
-* {margin: 0;}
-
-#picture1,#picture2{
-    margin: 0 auto;
-    display: inline-block;
-    border-style: groove;
-    border-width: 10px;
-    width: min-content;
-    text-align: center;
-    transition: 1s;
-    background-color: rgb(22, 22, 22);
+* {
+  margin: 0;
 }
 
-html{
-    background-color: rgb(22, 22, 22);
-    background-repeat: no-repeat;
-    color: #ffffff;
+#picture1,
+#picture2 {
+  margin: 0 auto;
+  display: inline-block;
+  border-style: groove;
+  border-width: 0.625em;
+  width: min-content;
+  text-align: center;
+  transition: 0.5s;
+  background-color: rgb(22, 22, 22);
 }
 
-.navbar{
-    background-color: #212529;
-    height: 50px;
+html {
+  background-color: rgb(22, 22, 22);
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #212529;
+  height: 3.125em !important;
+}
+
+.nav-color {
+  background-color: #212529 !important;
+}
+
+@media screen and (max-width: 576px) {
+    button .navbar-toggler {
+    flex-direction: column;
+    -ms-flex-direction: column;
+    flex-flow: column;
+    background-color: #212529 !important;
+}
+
+#navbarNav{
+    flex-direction: column;
+    -ms-flex-direction: column;
+    flex-flow: column;
+    flex-basis: 7.5em !important;
+    flex-grow: 0 !important;
+    width: 7.5em !important;
+    float: right !important;
+
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    flex-basis: 7.5em !important;
+    flex-grow: 0 !important;
+    width: 7.5em !important;
+    justify-content: flex-end !important;
+    float: inline-end !important;
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-nav{
-      float: right;
 }
+
 li {
-    display: inline;
-    margin: 15px;
+    float: right;
+    display: inline !important;
+  margin-left: 1em !important;
+  margin-right: 1em !important;
 }
 nav a {
-    text-decoration: none;
-    color: #ADB5BD;
+  text-decoration: none !important;
+  color: #adb5bd !important;
 }
 nav a:hover {
-    color: #00b2b2;
+  color: #00b2b2 !important;
 }
 
-nav a:active {
-    font-weight: bold;
+nav a.active {
+  font-weight: bold !important;
 }
 
-#welcomeindex{
-    color: #ffffff;
+#welcomeindex {
+  color: #ffffff;
 }
 
-h1,h4{
-    text-align: center;
+h1,
+h4 {
+  text-align: center;
 }
 
-.gridcontainerindex{
-    display: grid;
-    grid-template-areas: 
+.gridcontainerindex {
+  display: grid;
+  grid-template-areas:
     "header header header header header"
     "welcome welcome welcome welcome welcome"
     "main main main main main"
     "footer footer footer footer footer";
-    background-color: rgb(22, 22, 22);
-    color: #ffffff;
+
+  background-color: rgb(22, 22, 22);
+  color: white;
+
 }
 
-.gridcontainerindex>div {
-    text-align: center;
-    padding: 20px 0;
+.gridcontainerindex > div {
+  text-align: center;
+  padding: 1.25em 0;
 }
 
-
-.gridheaderindex{
-    grid-area: header;
-    cursor: default;
+.gridheaderindex {
+  grid-area: header;
+  cursor: default;
 }
 
-.gridwelcomeindex{
-    grid-area: welcome;
-    font-size: 2em;
-    cursor: default;
+.gridwelcomeindex {
+  grid-area: welcome;
+  font-size: 2em;
+  cursor: default;
 }
-.gridmainindex{
-    grid-area: main;
-}
-
-.gridfooterindex{
-    grid-area: footer;
-    background-color: #212529;
+.gridmainindex {
+  grid-area: main;
 }
 
-.gridfooterindex a{
-    color: #ADB5BD;
-    text-decoration: none;
+.gridfooterindex {
+  grid-area: footer;
+  background-color: #212529;
+}
+
+.gridfooterindex a {
+  color: #adb5bd;
+  text-decoration: none;
 }
 
 .gridfooterindex a:hover {
-    color: #00b2b2;
+  color: #00b2b2;
 }
 
-
-
-
-
-  .gridcontainercontact{
-    display: grid;
-    grid-template-areas: 
+.gridcontainercontact {
+  display: grid;
+  grid-template-areas:
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
-    background-color: rgb(22, 22, 22);
-    color: #ffffff;
-  }
 
-  .gridcontainercontact>div {
-    text-align: center;
-    padding: 20px 0;
+  background-color: rgb(22, 22, 22);
+  color: white;
 }
 
-.gridheadercontact{
-    grid-area: header;
+
+.gridcontainercontact > div {
+  text-align: center;
+  padding: 1.25em 0;
 }
 
-.gridmaincontact{
-    grid-area: main;
+.gridheadercontact {
+  grid-area: header;
 }
 
-.gridfootercontact{
-    grid-area: footer;
-    background-color: #212529;
+.gridmaincontact {
+  grid-area: main;
 }
 
-.gridfootercontact a{
-    color: #ADB5BD;
-    text-decoration: none;
+.gridfootercontact {
+  grid-area: footer;
+  background-color: #212529;
+}
+
+.gridfootercontact a {
+  color: #adb5bd;
+  text-decoration: none;
 }
 
 .gridfootercontact a:hover {
-    color: #00b2b2;
+  color: #00b2b2;
 }
 
-
-
-
-
-.gridcontainerpicture{
-    display: grid;
-    grid-template-areas: 
+.gridcontainerpicture {
+  display: grid;
+  grid-template-areas:
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
-    background-color: rgb(22, 22, 22);
-    color: #ffffff;
+
+  background-color: rgb(22, 22, 22);
+  color: white;
+
 }
 
-.gridcontainerpicture>div {
-    text-align: center;
-    padding: 20px 0;
+.gridcontainerpicture > div {
+  text-align: center;
+  padding: 1.25em 0;
 }
 
-.gridheaderpicture{
-    grid-area: header;
+.gridheaderpicture {
+  grid-area: header;
 }
 
-.gridmainpicture{
-    grid-area: main;
+.gridmainpicture {
+  grid-area: main;
 }
 
-.gridfooterpicture{
-    grid-area: footer;
-    background-color: #212529;
+.gridfooterpicture {
+  grid-area: footer;
+  background-color: #212529;
 }
 
-.gridfooterpicture a{
-    color: #ADB5BD;
-    text-decoration: none;
+.gridfooterpicture a {
+  color: #adb5bd;
+  text-decoration: none;
 }
 
 .gridfooterpicture a:hover {
-    color: #00b2b2;
+  color: #00b2b2;
 }
 
-
-
-
-
-.gridcontainernews{
-    display: grid;
-    grid-template-areas: 
+.gridcontainernews {
+  display: grid;
+  grid-template-areas:
     "header header header header header"
     "main main main main main"
     "footer footer footer footer footer";
-    background-color: rgb(22, 22, 22);
-    color: #ffffff;
+
+  background-color: rgb(22, 22, 22);
+  color: white;
+
 }
 
-.gridcontainernews>div {
-    text-align: center;
-    padding: 20px 0;
+.gridcontainernews > div {
+  text-align: center;
+  padding: 1.25em 0;
 }
 
-.gridheadernews{
-    grid-area: header;
+.gridheadernews {
+  grid-area: header;
 }
 
-.gridmainnews{
-    grid-area: main;
+.gridmainnews {
+  grid-area: main;
 }
 
-.gridfooternews{
-    grid-area: footer;
-    background-color: #212529;
+.gridfooternews {
+  grid-area: footer;
+  background-color: #212529;
 }
 
-.gridfooternews a{
-    color: #ADB5BD;
-    text-decoration: none;
+.gridfooternews a {
+  color: #adb5bd;
+  text-decoration: none;
 }
 
 .gridfooternews a:hover {
-    color: #00b2b2;
+  color: #00b2b2;
 }

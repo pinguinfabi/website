@@ -120,6 +120,7 @@ h4 {
 }
 .gridmainindex {
   grid-area: main;
+  font-size: 2em;
 }
 
 .gridfooterindex {

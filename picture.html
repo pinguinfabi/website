@@ -50,6 +50,20 @@
         </div>
       </nav>
     </div>
+    <script>
+      function pictureenter(picturenumber) {
+        document.getElementById("picture" + picturenumber).style.border =
+          "10px ridge";
+        document.getElementById("picture" + picturenumber).style.background =
+          "#212529";
+      }
+      function pictureout(picturenumber) {
+        document.getElementById("picture" + picturenumber).style.border =
+          "10px groove";
+        document.getElementById("picture" + picturenumber).style.background =
+          "rgb(22, 22, 22";
+      }
+    </script>
     <div class="gridcontainerpicture">
         <div class="gridheaderpicture">
             <h1>
@@ -63,7 +77,36 @@
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </h2>
-            
+            <main>
+              <div
+                id="picture1"
+                onmouseover='pictureenter("1");'
+                onmouseout='pictureout("1");'
+              >
+                Pinguin(-drache) Körper <br />
+                <img
+                  id="picture1-img"
+                  src="https://cdn.discordapp.com/attachments/782132491682709505/834394368625868840/5AC7EC1F-983C-49EB-877F-69171C7E739F_1.png"
+                  width="300"
+                  height="300"
+                  alt="Bild wird geladen..."
+                />
+              </div>
+              <div
+                id="picture2"
+                onmouseover='pictureenter("2");'
+                onmouseout='pictureout("2");'
+              >
+                Pinfuin(-drache) Kopf <br />
+                <img
+                  id="picture2-img"
+                  src="https://cdn.discordapp.com/attachments/791255235712647179/791287025260691476/pinguin_drache.png"
+                  width="300"
+                  height="300"
+                  alt="Bild wird geladen..."
+                />
+              </div>
+            </main>
         </div>
         <div class="gridfooterpicture">
             <a href="mailto:Dasistkeineechtemailooj@gmail.com">Kontaktieren sie uns hier</a> <br>

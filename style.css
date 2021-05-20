@@ -23,6 +23,7 @@ html {
 .profile{
   background-color: #212529;
   color: #ffffff;
+  vertical-align: auto;
 }
 
 .navbar {

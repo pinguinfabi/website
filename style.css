@@ -329,6 +329,7 @@ h4 {
 
 .gridheaderqoutes {
   grid-area: header;
+  text-align: center;
 }
 
 .gridqoutesqoutes {

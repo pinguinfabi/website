@@ -305,3 +305,45 @@ h4 {
 .gridfooteraboutme a:hover {
   color: #00b2b2;
 }
+
+
+
+
+.gridcontainerqoutes {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer";
+
+  background-color: rgb(22, 22, 22);
+  color: white;
+
+}
+
+.gridcontainerqoutes > div {
+  text-align: center;
+  padding: 1.25em 0;
+}
+
+.gridheaderqoutes {
+  grid-area: header;
+}
+
+.gridqoutesqoutes {
+  grid-area: main;
+}
+
+.gridfooterqoutes {
+  grid-area: footer;
+  background-color: #212529;
+}
+
+.gridfooterqoutes a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.gridfooterqoutes a:hover {
+  color: #00b2b2;
+}

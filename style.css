@@ -313,7 +313,7 @@ h4 {
   display: grid;
   grid-template-areas:
     "header header header header header"
-    "qoutes qoutes qoutes qoutes qoutes"
+    "qoutes"
     "footer footer footer footer footer";
 
   background-color: rgb(22, 22, 22);

@@ -313,7 +313,7 @@ h4 {
   display: grid;
   grid-template-areas:
     "header header header header header"
-    "qoutes"
+    "main main main mian mian"
     "footer footer footer footer footer";
 
   background-color: rgb(22, 22, 22);
@@ -330,7 +330,7 @@ h4 {
   grid-area: header;
 }
 
-.gridqoutesqoutes {
+.gridmainqoutes {
   grid-area: qoutes;
 }
 

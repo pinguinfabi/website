@@ -310,6 +310,7 @@ h4 {
 
 
 .gridcontainerqoutes {
+  display: grid;
   grid-template-areas:
     "header header header header header"
     "main main main mian mian"

@@ -310,7 +310,6 @@ h4 {
 
 
 .gridcontainerqoutes {
-  display: grid;
   grid-template-areas:
     "header header header header header"
     "main main main mian mian"
@@ -322,15 +321,11 @@ h4 {
 }
 
 .gridcontainerqoutes > div {
-  text-align: center !important;
   padding: 1.25em 0;
 }
 
 .gridheaderqoutes {
-  text-align: center !important;
   grid-area: header;
-  align-items: center !important;
-  justify-content:center;
 }
 
 .gridmainqoutes {

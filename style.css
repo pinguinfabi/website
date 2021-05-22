@@ -328,7 +328,7 @@ h4 {
 
 .gridheaderqoutes {
   grid-area: header;
-  align-items: center;
+  align-items: center !important;
   justify-content:center;
 }
 

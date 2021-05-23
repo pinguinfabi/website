@@ -349,7 +349,7 @@ h4 {
 }
 
 #eastereggs a {
-  color: #adb5bd;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -368,4 +368,5 @@ h4 {
 #eastereggs{
   background-color: rgb(22, 22, 22);
   text-align: center;
+  color: #ffffff;
 }

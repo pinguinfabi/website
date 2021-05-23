@@ -347,3 +347,20 @@ h4 {
 .gridfooterqoutes a:hover {
   color: #00b2b2;
 }
+
+#eastereggs a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+#eastereggs a:hover {
+  color: #00b2b2;
+}
+#picture1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#picture1 a:hover {
+  color: #00b2b2;
+}

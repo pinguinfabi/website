@@ -364,3 +364,8 @@ h4 {
 #picture1 a:hover {
   color: #00b2b2;
 }
+
+#eastereggs{
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+}

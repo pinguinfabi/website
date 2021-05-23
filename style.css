@@ -248,6 +248,7 @@ h4 {
 
 .gridmainnews {
   grid-area: main;
+  margin: 30em;
 }
 
 .gridfooternews {

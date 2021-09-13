@@ -242,13 +242,12 @@ h4 {
   padding: 1.25em 0;
 }
 
-.gridheadernews {
+.gridheadernewas {
   grid-area: header;
 }
 
 .gridmainnews {
   grid-area: main;
-  margin: 30em;
 }
 
 .gridfooternews {
@@ -262,48 +261,6 @@ h4 {
 }
 
 .gridfooternews a:hover {
-  color: #00b2b2;
-}
-
-
-
-
-.gridcontaineraboutme {
-  display: grid;
-  grid-template-areas:
-    "header header header header header"
-    "main main main main main"
-    "footer footer footer footer footer";
-
-  background-color: rgb(22, 22, 22);
-  color: white;
-
-}
-
-.gridcontaineraboutme > div {
-  text-align: center;
-  padding: 1.25em 0;
-}
-
-.gridheaderaboutme {
-  grid-area: header;
-}
-
-.gridmainaboutme {
-  grid-area: main;
-}
-
-.gridfooteraboutme {
-  grid-area: footer;
-  background-color: #212529;
-}
-
-.gridfooteraboutme a {
-  color: #adb5bd;
-  text-decoration: none;
-}
-
-.gridfooteraboutme a:hover {
   color: #00b2b2;
 }
 
